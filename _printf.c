@@ -36,6 +36,7 @@ int _printf(const char *format, ...)
 				: _printf("%%%c", *p);
 		}
 		else
+		{
 	         	count += _putchar(*p);
 	        }
 	_putchar(-1);
