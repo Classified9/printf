@@ -24,5 +24,5 @@ f->hash = 1;
 i = 1;
 break;
 }
-return (f);
+return (i);
 }
